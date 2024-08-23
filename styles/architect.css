@@ -69,6 +69,54 @@ nav a{
 .banner img{
     width: 100%;
 }
+/* main section style */
+main{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.teams-container{
+    display: flex;
+    align-items: center;
+    margin-top: 85px;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.teams-content{
+    margin-left: 76px;
+    margin-right: 76px;
+}
+
+.title-ql{
+    font-size: 45px;
+    font-weight: 500;
+    color: #727272;
+}
+.title-ou{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.title-feature{
+    font-size: 45px;
+    font-weight: 700;
+    color: #FF900E;
+}
+.teams-content-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-top: 24px;
+    
+}
+
+
+
+
+
 /* responsive media queries */
 /* small device */
 @media screen and (max-width: 576px) {
