@@ -112,6 +112,42 @@ main{
     margin-top: 24px;
     
 }
+.fact-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.fact-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+.fact-card-container{
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+.fact-card-container .card{
+    padding: 30px;
+    border: solid 1px;
+    border-radius: 8px;
+    border-color: #FF900E;
+    text-align: center;
+}
+.fact-card-container .card-stats{
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.fact-card-container .card-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+    
+}
 
 
 
@@ -134,7 +170,7 @@ main{
 }
 /* tablet or mediam device */
 @media screen and (min-width: 576px) and (max-width:960px) {
-    nav, .teams-container{
+    nav, {
         flex-direction: column;
     }
     
