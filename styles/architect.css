@@ -226,6 +226,15 @@ main{
     margin-top: 50px;
     margin-bottom: 130px;
 }
+.footer-section{
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
+    text-align: center;
+    background-color: #FFF4E7;
+    padding: 40px 410px;
+    margin: 0px 240px 216px 240px;
+}
 
 
 
